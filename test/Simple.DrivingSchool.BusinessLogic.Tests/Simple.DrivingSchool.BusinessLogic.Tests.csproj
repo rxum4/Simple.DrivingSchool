@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\Simple.DrivingSchool.BusinessLogic\Simple.DrivingSchool.BusinessLogic.csproj" />
+    <ProjectReference Include="..\..\src\Simple.DrivingSchool.DataAccess\Simple.DrivingSchool.DataAccess.csproj" />
   </ItemGroup>
 
 </Project>

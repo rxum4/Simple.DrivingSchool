@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple.DrivingSchool", "src
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple.DrivingSchool.BusinessLogic", "src\Simple.DrivingSchool.BusinessLogic\Simple.DrivingSchool.BusinessLogic.csproj", "{46FA7CC5-C1BD-443D-8E13-DF8D78183A81}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple.DrivingSchool.DataAccess", "src\Simple.DrivingSchool.DataAccess\Simple.DrivingSchool.DataAccess.csproj", "{51C78B3A-9531-4AF0-B3AF-F019B67CDEBD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -62,10 +64,23 @@ Global
 		{46FA7CC5-C1BD-443D-8E13-DF8D78183A81}.Release|x64.Build.0 = Release|Any CPU
 		{46FA7CC5-C1BD-443D-8E13-DF8D78183A81}.Release|x86.ActiveCfg = Release|Any CPU
 		{46FA7CC5-C1BD-443D-8E13-DF8D78183A81}.Release|x86.Build.0 = Release|Any CPU
+		{51C78B3A-9531-4AF0-B3AF-F019B67CDEBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51C78B3A-9531-4AF0-B3AF-F019B67CDEBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51C78B3A-9531-4AF0-B3AF-F019B67CDEBD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{51C78B3A-9531-4AF0-B3AF-F019B67CDEBD}.Debug|x64.Build.0 = Debug|Any CPU
+		{51C78B3A-9531-4AF0-B3AF-F019B67CDEBD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{51C78B3A-9531-4AF0-B3AF-F019B67CDEBD}.Debug|x86.Build.0 = Debug|Any CPU
+		{51C78B3A-9531-4AF0-B3AF-F019B67CDEBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51C78B3A-9531-4AF0-B3AF-F019B67CDEBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51C78B3A-9531-4AF0-B3AF-F019B67CDEBD}.Release|x64.ActiveCfg = Release|Any CPU
+		{51C78B3A-9531-4AF0-B3AF-F019B67CDEBD}.Release|x64.Build.0 = Release|Any CPU
+		{51C78B3A-9531-4AF0-B3AF-F019B67CDEBD}.Release|x86.ActiveCfg = Release|Any CPU
+		{51C78B3A-9531-4AF0-B3AF-F019B67CDEBD}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9BD403BC-3A2B-4E5D-BAB1-80651EAF67D7} = {D482FB8B-D498-4541-87EA-11CED81A0628}
 		{58B2B748-A18A-41DE-9E73-2F947EBB8564} = {651CA36E-78AC-4204-8B4C-2AC92EEF9D2A}
 		{46FA7CC5-C1BD-443D-8E13-DF8D78183A81} = {651CA36E-78AC-4204-8B4C-2AC92EEF9D2A}
+		{51C78B3A-9531-4AF0-B3AF-F019B67CDEBD} = {651CA36E-78AC-4204-8B4C-2AC92EEF9D2A}
 	EndGlobalSection
 EndGlobal
