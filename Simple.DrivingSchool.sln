@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D482FB8B-D498-4541-87EA-11CED81A0628}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple.DrivingSchool.BusinessLogic.Tests", "test\Simple.DrivingSchool.BusinessLogic.Tests\Simple.DrivingSchool.BusinessLogic.Tests.csproj", "{9BD403BC-3A2B-4E5D-BAB1-80651EAF67D7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple.DrivingSchool.BusinessLogic.Tests", "test\unit\Simple.DrivingSchool.BusinessLogic.Tests\Simple.DrivingSchool.BusinessLogic.Tests.csproj", "{9BD403BC-3A2B-4E5D-BAB1-80651EAF67D7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{651CA36E-78AC-4204-8B4C-2AC92EEF9D2A}"
 EndProject
@@ -17,7 +17,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple.DrivingSchool.DataAc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple.DrivingSchool.Server", "src\Simple.DrivingSchool.Server\Simple.DrivingSchool.Server.csproj", "{7790A9C6-FB5D-42C4-89E2-0A29DEAD4BE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple.DrivingSchool.Server.Tests", "test\Simple.DrivingSchool.Server.Tests\Simple.DrivingSchool.Server.Tests.csproj", "{39FF88A9-065A-44AD-807C-1ABE40DA7BEC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple.DrivingSchool.Server.Tests", "test\unit\Simple.DrivingSchool.Server.Tests\Simple.DrivingSchool.Server.Tests.csproj", "{39FF88A9-065A-44AD-807C-1ABE40DA7BEC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "unit", "unit", "{5999215A-102B-4D62-A2C3-C2648AE987CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -106,11 +108,12 @@ Global
 		{39FF88A9-065A-44AD-807C-1ABE40DA7BEC}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{9BD403BC-3A2B-4E5D-BAB1-80651EAF67D7} = {D482FB8B-D498-4541-87EA-11CED81A0628}
+		{9BD403BC-3A2B-4E5D-BAB1-80651EAF67D7} = {5999215A-102B-4D62-A2C3-C2648AE987CE}
 		{58B2B748-A18A-41DE-9E73-2F947EBB8564} = {651CA36E-78AC-4204-8B4C-2AC92EEF9D2A}
 		{46FA7CC5-C1BD-443D-8E13-DF8D78183A81} = {651CA36E-78AC-4204-8B4C-2AC92EEF9D2A}
 		{51C78B3A-9531-4AF0-B3AF-F019B67CDEBD} = {651CA36E-78AC-4204-8B4C-2AC92EEF9D2A}
 		{7790A9C6-FB5D-42C4-89E2-0A29DEAD4BE4} = {651CA36E-78AC-4204-8B4C-2AC92EEF9D2A}
-		{39FF88A9-065A-44AD-807C-1ABE40DA7BEC} = {D482FB8B-D498-4541-87EA-11CED81A0628}
+		{39FF88A9-065A-44AD-807C-1ABE40DA7BEC} = {5999215A-102B-4D62-A2C3-C2648AE987CE}
+		{5999215A-102B-4D62-A2C3-C2648AE987CE} = {D482FB8B-D498-4541-87EA-11CED81A0628}
 	EndGlobalSection
 EndGlobal

@@ -18,7 +18,7 @@ namespace Simple.DrivingSchool.BusinessLogic.Tests.Services
             public MockContainer MockContainer { get; } = new MockContainer();
 
             [Fact]
-            public async Task Given_ValidStudent_When_CreateAsyncCalled_Then_TaskIsReturned()
+            public void Given_ValidStudent_When_CreateAsyncCalled_Then_TaskIsReturned()
             {
                 //Given
                 var validStudent = CreateValidStudent();

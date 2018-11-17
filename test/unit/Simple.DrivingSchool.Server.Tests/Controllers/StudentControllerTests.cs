@@ -21,7 +21,7 @@ namespace Simple.DrivingSchool.Server.Tests.Controllers
         }
 
         [Fact]
-        public void Given_ValidStudent_When_CreateRequestRecieved_Then_ServiceIsCalled()
+        public async Task Given_ValidStudent_When_CreateRequestRecieved_Then_ServiceIsCalled()
         {
             //Given
             var validStudent = GenerateValidStudent();
@@ -31,7 +31,7 @@ namespace Simple.DrivingSchool.Server.Tests.Controllers
                 .Returns(Task.CompletedTask)
                 .Verifiable();
             //When
-            Instance.CreateAsync(validStudent);
+            await Instance.CreateAsync(validStudent);
             //Then
             ServiceMock.Verify();
         }

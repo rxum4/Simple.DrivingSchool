@@ -25,7 +25,7 @@ namespace Simple.DrivingSchool.BusinessLogic.Tests.Services
         }
 
         [Fact]
-        public async Task Given_Null_When_ConvertedToCreationModel_Then_TaskIsReturned()
+        public void Given_Null_When_ConvertedToCreationModel_Then_TaskIsReturned()
         {
             //Given
             var input = null as dto.Student;
