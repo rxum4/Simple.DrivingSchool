@@ -21,7 +21,7 @@ namespace Simple.DrivingSchool.BusinessLogic.Services
             if (student is null)
                 throw new ArgumentNullException();
 
-            var creationModel = await StudentModelBuilder.GenerateCreationModel(student);
+            var creationModel = await StudentModelBuilder.GenerateCreationModelAsync(student);
 
             await StudentRepository.CreateAsync(creationModel);
         }

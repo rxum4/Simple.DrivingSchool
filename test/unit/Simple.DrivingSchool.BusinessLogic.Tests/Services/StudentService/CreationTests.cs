@@ -61,7 +61,7 @@ namespace Simple.DrivingSchool.BusinessLogic.Tests.Services
                 var validStudent = CreateValidStudent();
                 var expectedCreationModel = new dao.StudentCreationModel();
                 MockContainer.StudentModelBuilderMock
-                    .Setup(builder => builder.GenerateCreationModel(validStudent))
+                    .Setup(builder => builder.GenerateCreationModelAsync(validStudent))
                     .ReturnsAsync(expectedCreationModel);
 
                 //When

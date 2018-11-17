@@ -16,7 +16,7 @@ namespace Simple.DrivingSchool.BusinessLogic.ModelBuilder
 
         public IMapper Mapper { get; }
 
-        public Task<dao.StudentCreationModel> GenerateCreationModel(dto.Student student)
+        public Task<dao.StudentCreationModel> GenerateCreationModelAsync(dto.Student student)
         {
             var mapperResult = Mapper.Map<dao.StudentCreationModel>(student);
             return Task.FromResult(mapperResult);

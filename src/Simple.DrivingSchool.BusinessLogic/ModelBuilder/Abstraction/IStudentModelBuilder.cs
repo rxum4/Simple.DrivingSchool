@@ -6,6 +6,6 @@ namespace Simple.DrivingSchool.BusinessLogic.ModelBuilder.Abstraction
     using dao = Simple.DrivingSchool.DataAccess.Models;
     public interface IStudentModelBuilder
     {
-        Task<dao.StudentCreationModel> GenerateCreationModel(dto.Student student);
+        Task<dao.StudentCreationModel> GenerateCreationModelAsync(dto.Student student);
     }
 }

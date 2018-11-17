@@ -30,7 +30,7 @@ namespace Simple.DrivingSchool.BusinessLogic.Tests.Services
             //Given
             var input = null as dto.Student;
             //When
-            var result = ModelBuilder.GenerateCreationModel(input);
+            var result = ModelBuilder.GenerateCreationModelAsync(input);
             //Then
             Assert.NotNull(result);
         }
@@ -41,7 +41,7 @@ namespace Simple.DrivingSchool.BusinessLogic.Tests.Services
             //Given
             var input = null as dto.Student;
             //When
-            var result = await ModelBuilder.GenerateCreationModel(input);
+            var result = await ModelBuilder.GenerateCreationModelAsync(input);
             //Then
             Assert.Null(result);
         }
@@ -54,7 +54,7 @@ namespace Simple.DrivingSchool.BusinessLogic.Tests.Services
             var expectation = new dao.StudentCreationModel();
             MapperMock.Setup(mapper => mapper.Map<dao.StudentCreationModel>(input)).Returns(expectation);
             //When
-            var result = await ModelBuilder.GenerateCreationModel(input);
+            var result = await ModelBuilder.GenerateCreationModelAsync(input);
             //Then
             Assert.Same(expectation, result);
         }
